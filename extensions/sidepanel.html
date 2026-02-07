@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Mystic Assistant</title>
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="brand">
+        <span class="logo">🔮</span>
+        <h3>Mystic Assistant</h3>
+      </div>
+      <div id="status-badge" class="badge">Ready</div>
+    </header>
+
+    <div id="chat-box" class="chat-box">
+      <div class="message bot-msg">
+        Hi Prateek! I'm synced with this video. What would you like to know?
+      </div>
+    </div>
+
+    <div id="typing-indicator" class="typing hidden">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+      <button id="send-btn">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <script src="sidepanel.js"></script>
+</body>
+</html>
