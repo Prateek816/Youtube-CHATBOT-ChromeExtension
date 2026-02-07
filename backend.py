@@ -101,10 +101,16 @@ document_chain = create_stuff_documents_chain(
 rag_pipeline = RunnablePassthrough.assign(context=contextualized_retriever) | document_chain
 
 #MEMORY INISIALIZATION
-store = {}
-def get_session_history(session_id: str):
-    if session_id not in store: store[session_id] = ChatMessageHistory()
+def get_session_history(session_id: str) -> BaseChatMessageHistory:
+    if session_id not in store:
+        store[session_id] = ChatMessageHistory()
+    
+    # Context window management: Keep last 20 messages
+    if len(store[session_id].messages) > 20:
+        store[session_id].messages = store[session_id].messages[-20:]
+        
     return store[session_id]
+
 
 #MAKING CHATBOT INVOKABLE FOR FRONTEND
 chatbot_with_memory = RunnableWithMessageHistory(
