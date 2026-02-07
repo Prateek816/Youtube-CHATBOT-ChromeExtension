@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+yt-dlp
+langchain
+langchain_groq
+langchain_core
+langchain_community
+flashrank
