@@ -3,7 +3,10 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain)](https://langchain.com/)
 [![Groq](https://img.shields.io/badge/Groq-f55036?style=for-the-badge)](https://groq.com/)
-
+[![FlashRank](https://img.shields.io/badge/FlashRank-FFD700?style=for-the-badge&logo=lightning&logoColor=black)](https://github.com/PrithivirajDamodaran/FlashRank)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 https://github.com/user-attachments/assets/a4db58b9-4afd-476d-aaf1-a516564184f0
