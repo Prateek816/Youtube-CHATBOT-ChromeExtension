@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from yt_chatbot.backend import chatbot_with_memory, update_retriever_for_url
+from backend import chatbot_with_memory, update_retriever_for_url
 
 app = FastAPI()
 
