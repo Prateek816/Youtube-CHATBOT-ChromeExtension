@@ -5,6 +5,10 @@
 [![Groq](https://img.shields.io/badge/Groq-f55036?style=for-the-badge)](https://groq.com/)
 
 
+
+https://github.com/user-attachments/assets/a4db58b9-4afd-476d-aaf1-a516564184f0
+
+
 **Mystic Assistant** is a AI companion built directly into the YouTube sidebar. Using  **Retrieval-Augmented Generation (RAG)**, it "reads" video transcripts in real-time, allowing you to have deep conversations, generate summaries, and extract insights from any video without leaving the page.
 
 ---
